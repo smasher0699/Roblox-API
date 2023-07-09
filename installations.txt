@@ -1,0 +1,1 @@
+Please do pip install roblox into your command prompt, this may change based on OS or other things.
