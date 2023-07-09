@@ -19,7 +19,7 @@ group = {
     "Wall_Posts": obj.get_wall_posts(),
     "ID": obj.id,
     "Can_Join_Without_Request": obj.public_entry_allowed,
-    "owner": {
+    "Owner": {
         "Name": obj.owner.name, #Get the user's name
         "Display Name": obj.owner.display_name, #Get the user's display name
         "ID": obj.owner.id, #Get the User's id
@@ -37,4 +37,5 @@ group = {
     "Member_Count": obj.member_count,
     "Shout": obj.shout,
 }
-print()
+print(group["Roles"])
+print(group["Owner"]["Robux"])
